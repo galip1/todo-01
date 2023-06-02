@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/todo-01/home";
-import TodoList from "./components/todo-01/todo-list";
-import TodoDetail from "./components/todo-01/todo-detail";
+import Home from "./components/home";
+import TodoList from "./components/todo-list";
+import TodoDetail from "./components/todo-detail";
 
 function App() {
   return (
